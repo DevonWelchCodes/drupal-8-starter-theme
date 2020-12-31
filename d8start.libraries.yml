@@ -1,0 +1,10 @@
+global-styling:
+  css:
+    theme:
+      "//fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap":
+        { type: external, minified: true }
+      css/child-theme.min.css: {}
+
+global-js:
+  js:
+    js/child-theme.min.js: {}

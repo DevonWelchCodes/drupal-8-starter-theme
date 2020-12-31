@@ -1,0 +1,17 @@
+name: D8 Starter Theme
+type: theme
+description: D8 Starter Theme
+core: 8.x
+# Defines the base theme
+base theme: classy
+# Defines libraries group in which we can add css/js.
+libraries:
+  - d8start/global-styling
+  - d8start/global-js
+# Regions
+regions:
+  header: Header
+  hero: Hero Banner
+  content: Content
+  sidebar_right: Sidebar Right
+  footer: Footer

@@ -1,0 +1,16 @@
+{#Include Header#}
+{% include directory ~ '/templates/includes/header.html.twig' %}
+{#End Include Header#}
+
+<div class="layout-container">
+  <div class="container">
+    <div class="wrapper">
+      {{ page.content }}
+      {{ page.sidebar_right }}
+    </div>
+  </div>
+</div>
+
+{#Include Footer#}
+{% include directory ~ '/templates/includes/footer.html.twig' %}
+{#End Include Footer#}

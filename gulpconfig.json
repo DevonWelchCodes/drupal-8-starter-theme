@@ -1,0 +1,23 @@
+{
+	"browserSyncOptions": {
+		"proxy": "http://replacemewithlocalurl.loc/",
+		"notify": false,
+		"snippetOptions": {
+			"ignorePaths": ["/admin/**"]
+		}
+	},
+	"browserSyncWatchFiles": ["./css/*.min.css", "./js/*.min.js"],
+	"paths": {
+		"js": "./js",
+		"css": "./css",
+		"img": "./img",
+		"imgsrc": "./src/img",
+		"sass": "./sass",
+		"node": "./node_modules/",
+		"bower": "./bower_components/",
+		"dev": "./src",
+		"dist": "./dist",
+		"distprod": "./dist-product",
+		"vendor": ""
+	}
+}
